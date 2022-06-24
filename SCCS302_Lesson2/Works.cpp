@@ -4,13 +4,16 @@
 #include "Works.h"
 
 void ws11() {
-	bool rng = true;
-	int data[15][3], datar, datac, total[15];
+	bool rng = false;
+	int data[15][3], datar, datac, total[15],nbool;
 	datar = sizeof(data) / sizeof(data[0]);
 	datac = sizeof(data[0]) / sizeof(int);
 	const char* subject[3]
 		= { "Thai", "Math", "Com" };
 	//Input Unit
+	printf_s("Use Fixed Random Number [1=Yes/0=No] ? : ");
+	scanf_s("%d",&nbool);
+	rng = nbool;
 	for (int i = 0;i < datar;i++) {
 		for (int j = 0; j < datac; j++)
 		{
