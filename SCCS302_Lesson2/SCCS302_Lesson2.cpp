@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <conio.h>
-#include <D:\Github\SCCS302_Lesson2\SCCS302_Lesson2\Works.h>
+#include "Works.h"
 
 int main()
 {
